@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Envelop</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .border {
+            padding: 10px 10px 15px ;
+            background:white;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 3px rgba(50,50,50,0.4);
+        }
+
+    </style>
+</head>
+<body>
+    <div style="position: absolute;top: 90px;left: 100px;transform:rotate(-5deg);">
+        <img src="./images/charley.png" alt="加载失败" style="width: 200px" class="border">
+    </div>
+    <div style="position: absolute;top: 0;left: 500px;transform:rotate(-5deg);">
+        <img src="./images/happy_father's_day.png" alt="加载失败" style="width: 200px">
+    </div>
+    <div style="position: absolute;top: 0;right: 500px;transform:rotate(5deg);">
+        <img src="./images/english.png" alt="加载失败" style="width: 200px">
+    </div>
+    <div style="position: absolute;bottom: 80px;left: 100px;transform:rotate(10deg);">
+        <img src="./images/charley_camera.jpg" alt="加载失败" style="width: 200px" class="border">
+    </div>
+    <div style="position: absolute;top: 15px;right: 15px;">
+        <img src="./images/thank_father.png" alt="加载失败" style="width: 400px">
+    </div>
+    <div class="container">
+        <div class="letter-wrapper">
+            <div class="cover"></div>
+            <div class="letter">
+                <p>嗨你好!</p>
+                <p>我是ChatGPT，一个生成式大模型。</p>
+                <p>在这个特别的日子里，我受到邀请向您问好，并衷心祝愿您度过一个美好的父亲节，健康快乐，幸福安康。</p>
+                <p>同时，今天也是京东6.18，为什么不考虑让@Agatha V你50，疯狂买买买呢？</p>
+                <p>GPT</p>
+                <p>2023/6</p>
+                <span>@Charley</span>
+            </div>
+            <div class="envelope">
+                <a href="./intro.html"><b>制作流程</b></a>
+                <small>模板源自@baizexiaotang</small>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
